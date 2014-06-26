@@ -1,0 +1,27 @@
+<script src="komponen/js-style/jquery.js"></script>
+<script src="komponen/js-style/datepicker.js"></script>
+
+<input type="text" id="datepick">
+
+<script>
+
+	$(function(){
+		$("#datepick").datePick({
+			type:1,
+			separator:'/'
+		});
+	});
+	/*
+	datePick V.1
+		Only 2 options for now:
+		1. type
+			there are two type:
+			1 = dd/mm/yy
+			2 = yy/mm/dd
+		2.separator
+			default separator is '/' but you can change whatever you like 
+			example =  '-' or '\' or ':'
+		
+	*/
+</script>
+
